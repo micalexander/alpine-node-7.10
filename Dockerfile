@@ -3,7 +3,7 @@ FROM alpine:3.4
 ENV NPM_CONFIG_LOGLEVEL info
 ENV NODE_VERSION 7.10.0
 
-ARG PREFIX_DIR
+ARG PREFIX_DIR=/usr/local/node
 
 # Replace the default install directory 
 # e.g. in vim :%s/\/usr\/local/PREFIX_DIR/g
